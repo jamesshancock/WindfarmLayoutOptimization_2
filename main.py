@@ -3,11 +3,11 @@ from modules import *
 
 windfarmParameters = {
     'len_grid': 7,
-    'case': "NorthSea",  # NorthSea or Alltwalis
-    'subcase': "A",  # Subcase for testingg (NorthSea only)
+    'case': "NorthSea",  
+    'subcase': "A",  
     'lam': 200,
-    'exhaustCheck': False,  # Set to True to run exhaustive check'
-    'solver': "sqoe",  # Options: 'sqoe', 'pce', 'gurobi'
+    'exhaustCheck': False,
+    'solver': "sqoe", 
     'warmStart' : True,
 }
 
